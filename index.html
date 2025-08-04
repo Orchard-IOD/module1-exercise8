@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/exercise8.css" />
+    <script src="./scripts/exercise8.js"></script>
+    <title>Exercise 8</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>🎲 Dice Generator 🎲</h1>
+        <div>
+          <label>
+            Select Die:
+            <select name="dieType" id="dieType" class="inputWidth">
+              <option value="4">d4</option>
+              <option value="6">d6</option>
+              <option value="8">d8</option>
+              <option value="10">d10</option>
+              <option value="12">d12</option>
+              <option value="20">d20</option>
+              <option value="100">d100</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label>
+            Number of dice to roll:
+            <input type="number" name="totalDie" id="totalDie" class="inputWidth" value="1" min="1"/>
+          </label>
+        </div>
+        <!-- <button>Roll</button> -->
+        <button onclick="handleRoll()">
+          Roll
+        </button>
+        <div class="diceWrapper">
+            <p id="rollResult"></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
