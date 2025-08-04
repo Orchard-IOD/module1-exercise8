@@ -1,0 +1,15 @@
+Dice Generator - Brief Use Cases
+
+Use Case 1:
+    Select Die:
+        A user/actor selects the required die to roll from the dropdown menu.
+
+Use Case 2:
+    Roll Die:
+        A user/actor clicks the Roll button to produce a random number between the minimum and maximum values of the die chosen.
+
+
+
+
+
+        

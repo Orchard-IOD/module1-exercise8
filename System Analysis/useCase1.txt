@@ -1,0 +1,38 @@
+Use case 1 - Select Die
+
+Use Case Name:
+    Select Die
+
+Scenario:
+    A user requires to select a die to 
+    support their tabletop gaming activities.
+
+Actor(s):
+    User (Dice Generator user / tabletop gamer)
+
+Description:
+    The user selects the type of die 
+    they want to roll (e.g., d4, d6, d8, d10, d12, d20, d100) 
+    from a dropdown menu within the application’s GUI.
+
+Preconditions:
+    The user has accessed the Dice Generator.
+    The user intends to select a die to roll.
+
+Postconditions:
+    The chosen die is stored in the system as the current die type.
+    The system is ready to roll the selected die when prompted.
+
+Main Flow of activities:
+    The user opens the Dice Generator application.
+    The system displays a dropdown menu labeled “Select Die.”
+    The user clicks or taps on the dropdown.
+    The system presents a list of available dice types (e.g., d4 to d100).
+    The user selects the desired die (e.g., d20).
+    The selected die is stored, preparing the UI for rolling.
+
+Next use case:
+    Roll Dice
+
+Possible options:
+    Add Modifier, Set Number of Dice,

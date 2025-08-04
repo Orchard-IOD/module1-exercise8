@@ -1,0 +1,14 @@
+Dice Generator - Simple Storyboard
+
+    - A player/user accesss the Dice Generator landing page via the internet.
+
+    - The user selects the Dice Generator component of the application
+
+    - From the GUI a user selects the required die to roll from 
+      a dropdown menu of different dice (d4, d6, d8, d10, d12, d20).
+
+    - The user clicks the Roll button and a random number is 
+      generated between the minimum and maximum values of the selected die.
+
+    - The randome number is removed and replaced 
+      with another value when the Roll button is clicked again.

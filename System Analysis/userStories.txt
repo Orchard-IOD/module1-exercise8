@@ -1,0 +1,26 @@
+Dice Generator - User Stories
+
+User Story 1:
+    As a tabletop gamer,
+    I want to be able to access the Dice Generator landing page,
+    so that I can add online gaming support to my tabletop gaming activities.
+
+User Story 2:
+    As a Dice Generator user,
+    I want to be able to select different-sided dice from the application's GUI,
+    so that I can match the dice to the dice requirements of the game I am playing.
+
+User Story 3:
+    As a Dice Generator user,
+    I require the application to generate a random value
+    within the minimum and maximum values of the die chosen,
+    so that I can simulate accurate dice rolls for the game I am playing.
+
+User Story 4:
+    As a Dice Generator user,
+    I would like to see additional options, 
+    such as setting the number of dice to roll.
+    Adding positive or negative modifiers to die rolls,
+    so that the outcomes better reflect real gameplay scenarios.
+    A future enhancement maybe to allow die selection through icons 
+    or visual representations instead of using a standard dropdown menu.

@@ -1,0 +1,31 @@
+Use case 2 - Roll Die
+
+Use Case Name:
+    Roll Die
+
+Scenario:
+    A user requires to roll a die to 
+    support their tabletop gaming activities.
+
+Actor(s):
+    User (Dice Generator user / tabletop gamer)
+
+Description:
+    After selecting a die type, the user clicks the Roll button. 
+    The system generates and displays a random number between the 
+    minimum and maximum values of the selected die.
+
+Preconditions:
+    The user has selected a die to roll.
+    The user intends to roll the selected die.
+
+Postconditions:
+    A valid random number within the die’s range is displayed to the user.
+    The roll can be repeated with the same or different die.
+
+Main Flow of activities:
+    The user has selected a die.
+    The user clicks the Roll button.
+    The system generates a random number within the range.selected die range.
+    The system displays the result on the screen.
+
