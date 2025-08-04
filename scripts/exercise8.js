@@ -25,4 +25,25 @@ function handleRoll(dieType, totalDice) {
     valContainer.appendChild(span);
   });
 
+  // call tests
+  testSuite(diceRolls, valContainer, totalDice);
 }
+
+// ==============================================
+// test suite
+
+function testSuite(diceRolls, valContainer, totalDice) {
+  // test returned random value is within selected die range
+  if (diceRolls[0] >= 1 || diceRolls[0] <= dieType) {
+    console.log("Returned random value is within selected die range");
+  }
+
+  // test if displayed dice returned equals the amount of dice rolled
+  if ((valContainer.children.length = totalDice)) {
+    console.log(
+      "the amount of dice displayed is equal to the total dice rolled"
+    );
+  }
+}
+
+// ==============================================
